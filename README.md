@@ -16,6 +16,7 @@
 
 <p align="center">
   <a href="#selected-projects">Projects</a> &nbsp; · &nbsp;
+  <a href="#contributions">Contributions</a> &nbsp; · &nbsp;
   <a href="https://github.com/Plastic-time?tab=repositories">Repositories</a>
 </p>
 
@@ -43,6 +44,16 @@
     </td>
   </tr>
 </table>
+
+## Contributions
+
+<a href="https://github.com/Plastic-time?tab=overview#year-list-container">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/contributions-light.svg">
+    <img src="assets/contributions-light.svg" width="100%" alt="Daily GitHub contributions, refreshed every day from my public profile">
+  </picture>
+</a>
 
 <p align="center">
   <img src="assets/divider.svg" width="420" alt="">

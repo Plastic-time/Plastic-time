@@ -1,0 +1,33 @@
+name: Refresh contribution graph
+
+on:
+  schedule:
+    - cron: '25 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-graph
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Read public calendar and render SVGs
+        run: python3 scripts/update_contributions.py
+      - name: Commit updated graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assets/contributions-light.svg assets/contributions-dark.svg
+          if git diff --cached --quiet; then
+            echo "Contribution graph is already current."
+            exit 0
+          fi
+          git commit -m "Refresh public contribution graph"
+          git push
