@@ -1,8 +1,6 @@
 <h1 align="center">Hi, I'm Plastic-time 👋</h1>
 
-<p>I make small tools for the games I play and little companions for my desktop. I like turning things I enjoy into projects I can use and share.</p>
-
-<p>You'll find game utilities, desktop experiments, and a few anime-inspired projects here.</p>
+<p>I'm learning the fundamentals of electrical engineering. I enjoy figuring out how things work, building small tools, and documenting what I learn along the way.</p>
 
 ## What I'm Working On
 
