@@ -1,15 +1,21 @@
-<h1 align="center">Hi, I'm Plastic-time 👋</h1>
+<h1>Plastic-time</h1>
+
+<p><em>No code, no life.</em></p>
+
+<p>Learning electrical engineering. Building small things. Taking notes.</p>
+
+## 01 / Learning
 
 <p>I'm learning the fundamentals of electrical engineering. I enjoy figuring out how things work, building small tools, and documenting what I learn along the way.</p>
 
-## What I'm Working On
+## 02 / Projects
 
-- **War Thunder tools.** I build a [research planner](https://github.com/Plastic-time/warthunder-research-calculator) for vehicle unlocks, research points, and Silver Lion costs. Available on the [web](https://plastic-time.github.io/warthunder-research-calculator/) and [Windows](https://github.com/Plastic-time/warthunder-research-calculator/releases).
-- **Desktop companions.** [Shinobu Companion](https://github.com/Plastic-time/Shinobu-Oshino-pet) is an unofficial fan project with a quiet idle pose and occasional blinking, available for GPT Pets and as a standalone Windows desktop pet.
+- [**War Thunder Planner**](https://github.com/Plastic-time/warthunder-research-calculator) — Research paths, RP, and Silver Lion costs. [Open the web app ↗](https://plastic-time.github.io/warthunder-research-calculator/)
+- [**Shinobu Companion**](https://github.com/Plastic-time/Shinobu-Oshino-pet) — A quiet desktop companion for GPT Pets and Windows. An unofficial fan project.
 
-## Notes
+## 03 / Logbook
 
-<p>Occasional updates on what I'm making, trying, and learning.</p>
+<p>Progress, small discoveries, and things that didn't work.</p>
 
 <!-- Add your own entries below, newest first.
 Use this format:
@@ -18,4 +24,4 @@ Use this format:
 
 ---
 
-<p><a href="https://github.com/Plastic-time?tab=repositories">Browse my repositories →</a></p>
+<p><a href="https://github.com/Plastic-time?tab=repositories">All repositories ↗</a></p>
