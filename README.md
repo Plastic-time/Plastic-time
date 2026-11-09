@@ -9,14 +9,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-173a5e?style=flat-square&amp;logo=javascript&amp;logoColor=8fd3ff" alt="JavaScript">
-  <img src="https://img.shields.io/badge/C%23-173a5e?style=flat-square&amp;logo=dotnet&amp;logoColor=8fd3ff" alt="C#">
-  <img src="https://img.shields.io/badge/Python-173a5e?style=flat-square&amp;logo=python&amp;logoColor=8fd3ff" alt="Python">
-  <img src="https://img.shields.io/badge/Node.js-173a5e?style=flat-square&amp;logo=nodedotjs&amp;logoColor=8fd3ff" alt="Node.js">
-  <img src="https://img.shields.io/badge/Git-173a5e?style=flat-square&amp;logo=git&amp;logoColor=8fd3ff" alt="Git">
-</p>
-
-<p align="center">
   <img width="98%" src="assets/frozen-calendar.svg" alt="Contribution calendar that a snowflake freezes column by column">
 </p>
 
