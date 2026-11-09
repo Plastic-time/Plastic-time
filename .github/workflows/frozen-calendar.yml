@@ -1,0 +1,41 @@
+name: Update frozen calendar
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/frozen-calendar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: frozen-calendar
+
+jobs:
+  calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Draw the frozen calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: node scripts/frozen-calendar.mjs "$OWNER" assets/frozen-calendar.svg
+
+      - name: Commit if it changed
+        run: |
+          git add assets/frozen-calendar.svg
+          if git diff --cached --quiet; then
+            echo "Calendar unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update frozen contribution calendar"
+          git push
