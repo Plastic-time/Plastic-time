@@ -3,7 +3,17 @@
   <br>
   <strong>ba↑ka↓</strong>
   <br>
+  <img src="https://img.shields.io/badge/the_strongest-%E2%91%A8-8fd3ff?style=flat-square&amp;labelColor=0f1c2e" alt="the strongest ⑨">
+  <img src="https://img.shields.io/badge/IQ-%E2%91%A8-8fd3ff?style=flat-square&amp;labelColor=0f1c2e" alt="IQ ⑨">
   <img src="https://komarev.com/ghpvc/?username=Plastic-time&amp;label=visitors&amp;color=4f9dff&amp;style=flat-square" alt="Profile visitors">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-173a5e?style=flat-square&amp;logo=javascript&amp;logoColor=8fd3ff" alt="JavaScript">
+  <img src="https://img.shields.io/badge/C%23-173a5e?style=flat-square&amp;logo=dotnet&amp;logoColor=8fd3ff" alt="C#">
+  <img src="https://img.shields.io/badge/Python-173a5e?style=flat-square&amp;logo=python&amp;logoColor=8fd3ff" alt="Python">
+  <img src="https://img.shields.io/badge/Node.js-173a5e?style=flat-square&amp;logo=nodedotjs&amp;logoColor=8fd3ff" alt="Node.js">
+  <img src="https://img.shields.io/badge/Git-173a5e?style=flat-square&amp;logo=git&amp;logoColor=8fd3ff" alt="Git">
 </p>
 
 <p align="center">
