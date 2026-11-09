@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="247" viewBox="0 0 350 247" role="img" aria-labelledby="title">
+<title id="title">Languages in 212 merged pull requests to other projects, by lines changed: TypeScript 50.6%, Python 33.2%, Rust 9.2%, JavaScript 5.5%, C++ 1.2%, Other 0.4%</title>
+<style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif}
+.h1{font-size:18px;font-weight:600;fill:#8fd3ff}
+.sub{font-size:11px;fill:#7f9bb8}
+.lang{font-size:12px;fill:#d6ecff}
+.pct{font-size:12px;fill:#d6ecff;text-anchor:end}
+.track{fill:#8fd3ff;fill-opacity:.08}
+.in{animation:in .5s ease-out both}
+.bar{animation:grow .9s ease-out both;transform-box:fill-box;transform-origin:left}
+@keyframes in{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){.in,.bar{animation:none}}
+</style>
+<defs><linearGradient id="bg" gradientTransform="rotate(135)" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#0f1c2e"/><stop offset="100%" stop-color="#173a5e"/></linearGradient></defs>
+<rect width="350" height="247" rx="4.5" fill="url(#bg)"/>
+<text x="25" y="35" class="h1">Contributed Languages</text>
+<text x="25" y="54" class="sub">by lines changed in merged PRs to 16 other projects</text>
+<g class="in" style="animation-delay:0.10s"><circle cx="30" cy="80" r="5" fill="#3178c6"/><text x="42" y="84" class="lang">TypeScript</text><rect x="112" y="76" width="150" height="8" rx="4" class="track"/><rect x="112" y="76" width="150.0" height="8" rx="4" fill="#3178c6" class="bar" style="animation-delay:0.10s"/><text x="325" y="84" class="pct">50.6%</text></g>
+<g class="in" style="animation-delay:0.18s"><circle cx="30" cy="106" r="5" fill="#3572a5"/><text x="42" y="110" class="lang">Python</text><rect x="112" y="102" width="150" height="8" rx="4" class="track"/><rect x="112" y="102" width="98.6" height="8" rx="4" fill="#3572a5" class="bar" style="animation-delay:0.18s"/><text x="325" y="110" class="pct">33.2%</text></g>
+<g class="in" style="animation-delay:0.26s"><circle cx="30" cy="132" r="5" fill="#dea584"/><text x="42" y="136" class="lang">Rust</text><rect x="112" y="128" width="150" height="8" rx="4" class="track"/><rect x="112" y="128" width="27.2" height="8" rx="4" fill="#dea584" class="bar" style="animation-delay:0.26s"/><text x="325" y="136" class="pct">9.2%</text></g>
+<g class="in" style="animation-delay:0.34s"><circle cx="30" cy="158" r="5" fill="#f1e05a"/><text x="42" y="162" class="lang">JavaScript</text><rect x="112" y="154" width="150" height="8" rx="4" class="track"/><rect x="112" y="154" width="16.3" height="8" rx="4" fill="#f1e05a" class="bar" style="animation-delay:0.34s"/><text x="325" y="162" class="pct">5.5%</text></g>
+<g class="in" style="animation-delay:0.42s"><circle cx="30" cy="184" r="5" fill="#f34b7d"/><text x="42" y="188" class="lang">C++</text><rect x="112" y="180" width="150" height="8" rx="4" class="track"/><rect x="112" y="180" width="3.5" height="8" rx="4" fill="#f34b7d" class="bar" style="animation-delay:0.42s"/><text x="325" y="188" class="pct">1.2%</text></g>
+<g class="in" style="animation-delay:0.50s"><circle cx="30" cy="210" r="5" fill="#7f9bb8"/><text x="42" y="214" class="lang">Other</text><rect x="112" y="206" width="150" height="8" rx="4" class="track"/><rect x="112" y="206" width="3.0" height="8" rx="4" fill="#7f9bb8" class="bar" style="animation-delay:0.50s"/><text x="325" y="214" class="pct">0.4%</text></g>
+</svg>

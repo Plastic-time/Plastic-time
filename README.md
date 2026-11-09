@@ -26,5 +26,5 @@
 
 <p align="center">
   <img width="61%" src="https://github-stats-extended.vercel.app/api?username=Plastic-time&amp;show_icons=true&amp;hide_border=true&amp;bg_color=135,0f1c2e,173a5e&amp;title_color=8fd3ff&amp;text_color=d6ecff&amp;icon_color=4f9dff&amp;ring_color=8fd3ff" alt="GitHub stats">
-  <img width="36%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Plastic-time&amp;layout=donut&amp;langs_count=6&amp;hide_border=true&amp;bg_color=135,0f1c2e,173a5e&amp;title_color=8fd3ff&amp;text_color=d6ecff" alt="Most used languages">
+  <img width="36%" src="assets/contributed-languages.svg" alt="Languages of my merged pull requests to other projects, by lines changed">
 </p>

@@ -1,4 +1,4 @@
-name: Update frozen calendar
+name: Update profile cards
 
 on:
   schedule:
@@ -8,34 +8,36 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
-      - ".github/workflows/frozen-calendar.yml"
+      - ".github/workflows/profile-cards.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: frozen-calendar
+  group: profile-cards
 
 jobs:
-  calendar:
+  cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
 
-      - name: Draw the frozen calendar
+      - name: Draw the cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
-        run: node scripts/frozen-calendar.mjs "$OWNER" assets/frozen-calendar.svg
-
-      - name: Commit if it changed
         run: |
-          git add assets/frozen-calendar.svg
+          node scripts/frozen-calendar.mjs "$OWNER" assets/frozen-calendar.svg
+          node scripts/contributed-languages.mjs "$OWNER" assets/contributed-languages.svg --no-markdown
+
+      - name: Commit if they changed
+        run: |
+          git add assets/frozen-calendar.svg assets/contributed-languages.svg
           if git diff --cached --quiet; then
-            echo "Calendar unchanged."
+            echo "Cards unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update frozen contribution calendar"
+          git commit -m "Update profile cards"
           git push
