@@ -5,7 +5,7 @@
   <br>
   <img src="https://img.shields.io/badge/the_strongest-%E2%91%A8-8fd3ff?style=flat-square&amp;labelColor=0f1c2e" alt="the strongest ⑨">
   <img src="https://img.shields.io/badge/IQ-%E2%91%A8-8fd3ff?style=flat-square&amp;labelColor=0f1c2e" alt="IQ ⑨">
-  <img src="https://komarev.com/ghpvc/?username=Plastic-time&amp;label=visitors&amp;color=4f9dff&amp;style=flat-square" alt="Profile visitors">
+  <img src="https://komarev.com/ghpvc/?username=Plastic-time&amp;label=Profile%20views&amp;color=4f9dff&amp;style=flat-square" alt="Profile views">
 </p>
 
 <p align="center">
